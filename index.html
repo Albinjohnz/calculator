@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 id="calculator">CALCULATOR</h1>
+    <div id="container" class="mt-5 d-flex justify-content-center align-items-center flex-column">
+        <div class="box">
+            <input id="calcScreen" type="text" placeholder="0" >
+            <div class="buttons">
+                <button onclick="clearAllContent()">AC</button>
+                <button onclick="displayContent('7')">7</button>
+                <button onclick="displayContent('8')">8</button>
+                <button onclick="displayContent('9')">9</button>
+                <button onclick="displayContent('+')">+</button>
+                <button onclick="displayContent('4')">4</button>
+                <button onclick="displayContent('5')">5</button>
+                <button onclick="displayContent('6')">6</button>
+                <button onclick="displayContent('-')">-</button>
+                <button onclick="displayContent('1')">1</button>
+                <button onclick="displayContent('2')">2</button>
+                <button onclick="displayContent('3')">3</button>
+                <button onclick="displayContent('*')">*</button>
+                <button onclick="displayContent('0')">0</button>
+                <button onclick="displayContent('/')">/</button>
+                <button onclick="showResult()">=</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
